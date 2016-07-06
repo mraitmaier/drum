@@ -1,6 +1,6 @@
-// Package drum is supposed to implement the decoding of .splice drum machine files.
+package main
+// package drum is supposed to implement the decoding of .splice drum machine files.
 // See golang-challenge.com/go-challenge1/ for more information
-package drum
 
 import (
 	"fmt"
@@ -129,4 +129,5 @@ func (p *Pattern) GetTrackByName(name string) *Track {
 		}
 	}
 	return nil
+
 }

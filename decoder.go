@@ -1,4 +1,4 @@
-package drum
+package main
 
 import (
 	"bytes"
